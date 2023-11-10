@@ -8,5 +8,6 @@ Some simple changes to the config:
 - Tab / Shift-Tab to change between buffers / tabs
 - Shift-arrows to move between panes
 - turn off relative line numbering
+- wsl clipboard integration (yank will change clipboard, etc)
   
 # neovimconfig
