@@ -16,3 +16,9 @@ vim.keymap.set("n", "<S-Right>", "<C-w>l", { desc = "Go to right window", remap 
 vim.cmd([[
   unmap Y
 ]])
+
+-- aerial
+vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>")
+-- Jump forwards/backwards with '{' and '}'
+vim.keymap.set("n", "{", "<cmd>AerialPrev<CR>")
+vim.keymap.set("n", "}", "<cmd>AerialNext<CR>")
