@@ -9,5 +9,6 @@ Some simple changes to the config:
 - Shift-arrows to move between panes
 - turn off relative line numbering
 - wsl clipboard integration (yank will change clipboard, etc)
+- indentation block marks are not animated anymore
   
 # neovimconfig
